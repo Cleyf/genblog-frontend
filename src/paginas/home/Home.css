@@ -1,11 +1,18 @@
-.titulo{
-  color:blue;
-  text-align: center;
+.back{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/73/God2-Sistine_Chapel.png");
+    background-repeat: no-repeat;
+    width: 100vw;
+     min-height: calc(100vh - 64); 
+
+    background-size:cover;
+    background-position: center;
+
+     height: 435px 
+
 }
 
-.img{
-  width: 800px;
-  height: 500px;
-  display: block;
-  margin: 0 auto;
+.text{
+  display:grid;
+  padding: 30px
+
 }
