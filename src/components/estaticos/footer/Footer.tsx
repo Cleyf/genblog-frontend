@@ -12,27 +12,27 @@ function Footer(){
                 <Grid alignItems="center" item xs={12}>
                     <Box className="footer ">
                         <Box paddingTop={1} display="flex" alignItems="center" justifyContent="center">
-                            <Typography variant="h6" align="center" gutterBottom style={{ color: "black" }}>Siga-nos nas redes sociais </Typography>
+                            <Typography variant="h6" align="center" gutterBottom className='texto1'>Siga-nos nas redes sociais </Typography>
                         </Box>
                         <Box display="flex" alignItems="center" justifyContent="center" className="alturaRede">
                             <a href="https://www.facebook.com/cleyfson.angelodasilva.1" target="blank">
-                                <FacebookIcon style={{ fontSize: 30, color: "black" }} />
+                                <FacebookIcon className='redes' />
                             </a>
                             <a href="https://www.instagram.com/cleyfsonnen/" target="blank">
-                                <InstagramIcon style={{ fontSize: 30, color: "black" }} />
+                                <InstagramIcon className='redes' />
                             </a>
                             <a href="https://www.linkedin.com/in/cleyfson-angelo-da-silva-608a68226/" target="blank">
-                                <LinkedInIcon style={{ fontSize: 30, color: "black" }} />
+                                <LinkedInIcon className='redes' />
                             </a>
                         </Box>
                     </Box>
-                    <Box style={{ backgroundColor: "black", height: "60px" }}>
+                    <Box className='footer2' style={{ backgroundColor: "black", height: "60px" }}>
                         <Box paddingTop={1}>
-                            <Typography variant="subtitle2" align="center" gutterBottom style={{ color: "#FFFFFF" }} >© 2022 Copyright:</Typography>
+                            <Typography variant="subtitle2" align="center" gutterBottom className='texto2' >© 2022 Copyright:</Typography>
                         </Box>
                         <Box>
                             <a target="blank" href="https://brasil.generation.org">
-                                <Typography variant="subtitle2" gutterBottom style={{ color: "white" }} align="center">brasil.generation.org</Typography>
+                                <Typography variant="subtitle2" gutterBottom className='texto2' align="center">brasil.generation.org</Typography>
                             </a>
                         </Box>
                     </Box>

@@ -7,12 +7,27 @@
     background-size:cover;
     background-position: center;
 
-     height: 435px 
-
+     height: 435px ;
 }
 
+.titulo{
+  color: #000000 !important;
+  font-weight: bold !important;
+}
+
+.botao{
+  /* style:  */
+  border-color: #000000!important;
+  background-color: #9e9a9a!important;
+  color: #080808 !important ;
+}
+
+.postagens{
+  background-color: #3c3b3b!important;
+}
+
+/* estilizar o texto para ficar no local correto */
 .text{
   display:grid;
-  padding: 30px;
-  color: #054F77!important
+  padding: 50px; 
 }

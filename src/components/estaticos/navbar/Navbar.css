@@ -1,3 +1,12 @@
 .nave{
   background: linear-gradient( 36deg,#595959 8%, #ccccff)
 }
+
+.cursor{
+  cursor: pointer;
+  color:#ffffff
+}
+
+.text-decorator-nome{
+  text-decoration: none;
+}
