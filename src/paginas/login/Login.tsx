@@ -26,10 +26,10 @@ function Login(){
   }
 
   useEffect(()=>{
-    if (token != ''){
-      history.push('/home')
+    if(token != ''){
+        history.push('/home')
     }
-  },[token])
+}, [token])
 
   async function onSubmit(e: ChangeEvent<HTMLFormElement>) {
       e.preventDefault();
