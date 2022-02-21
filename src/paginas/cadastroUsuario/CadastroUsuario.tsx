@@ -49,7 +49,7 @@ function CadastroUsuario(){
   }
   async function onSubmit(e: ChangeEvent<HTMLFormElement>) {
       e.preventDefault()
-      if(confirmarSenha == user.senha){
+      if(confirmarSenha == user.senha && user.senha.length >=8){
       cadastroUsuario(`/usuarios/cadastrar`, user, setUserResult)
       alert('Usuario cadastrado com sucesso')
       }else{
@@ -66,7 +66,7 @@ function CadastroUsuario(){
             <Typography variant='h3' gutterBottom color='textPrimary' component='h3' align='center' className='textos2'>Cadastrar</Typography>
             <TextField value={user.nome} onChange={(e: ChangeEvent<HTMLInputElement>)=> updatedModel(e)} id='nome' label='nome' variant='outlined' name='nome' margin='normal' fullWidth required />
             <TextField value={user.usuario} onChange={(e: ChangeEvent<HTMLInputElement>)=> updatedModel(e)} id='usuario' label='usuario' variant='outlined' name='usuario' margin='normal' fullWidth required placeholder='exemple email@email.com'/>
-            <TextField value={user.senha} onChange={(e: ChangeEvent<HTMLInputElement>)=> updatedModel(e)} id='senha' label='senha' variant='outlined' name='senha' margin='normal' type='password' fullWidth required/>
+            <TextField value={user.senha} onChange={(e: ChangeEvent<HTMLInputElement>)=> updatedModel(e)} id='senha' label='senha' variant='outlined' name='senha' margin='normal' type='password' fullWidth required placeholder='no minimo 8 caracteres'/>
             <TextField value={confirmarSenha} onChange={(e: ChangeEvent<HTMLInputElement>)=> confirmarSenhaHandle(e)} id='confirmarSenha' label='confirmarSenha' variant='outlined' name='confirmarSenha' margin='normal' type='password' fullWidth required/>
             <Box marginTop={2} textAlign='center'>
               <Link to='/login'className='text-decorator-none' >
