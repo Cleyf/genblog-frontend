@@ -1,0 +1,14 @@
+.titulo{
+  font-weight: bold;
+}
+
+.backtab{
+  background: linear-gradient( 36deg,#3d3d3d 40%, #ccccff)!important;
+  color: #ffffff!important;
+  font-weight: bolder;
+}
+
+
+/* .about2{
+  background: linear-gradient( 36deg,#595959 8%, #ccccff)!important;
+} */

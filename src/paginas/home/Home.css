@@ -1,13 +1,13 @@
 .back{
-    background-image: url("https://i.imgur.com/IefaXIc.jpg[/img]");
+  /* background-color: #595959;  */
+  background-image: url("https://i.imgur.com/IefaXIc.jpg[/img]");
     background-repeat: no-repeat;
-    width: 100vw;
-     min-height: calc(100vh - 64); 
-
+    width: 1350px;
+    min-height: calc(100vh - 64); 
     background-size:cover;
-    background-position: center;
+    background-position:center;
 
-     height: 435px ;
+     height: 340px ;
 }
 
 .titulo{
@@ -23,7 +23,10 @@
 }
 
 .postagens{
-  background-color: #3c3b3b!important;
+  /* background: linear-gradient( 36deg,#595959 8%, #ccccff)!important; */
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
 }
 
 /* estilizar o texto para ficar no local correto */
