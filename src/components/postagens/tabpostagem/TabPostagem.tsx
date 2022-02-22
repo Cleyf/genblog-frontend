@@ -15,7 +15,7 @@ function TabPostagem() {
       <TabContext value={value}>
         <AppBar  position="static" className="backtab">
           <Tabs  centered indicatorColor="secondary" onChange={handleChange}>
-            <Tab label="Todas as postagens" value="1"/>
+            <Tab label= "Todas as postagens" value="1"/>
             <Tab label="Sobre-nós" value="2" />
           </Tabs>
         </AppBar>
@@ -26,7 +26,7 @@ function TabPostagem() {
         </TabPanel>
         <TabPanel value="2">
           <Typography  variant="h5" gutterBottom color="textPrimary" component="h5" align="center" className="titulo, about2">Sobre-nós</Typography>
-          <Typography variant="body1" gutterBottom color="textPrimary" align="justify">Olá eu sou o Cley, e esse trabalho foi realizado graças a @GenerationBrasil, e o tema ViverObrigaHistória uniu duas grandes paixões que é tecnologia e história. Aqui pretendo fazer postagens reais sobre curiosidades, mentalidades e continuidades históricas. Divirtam-se! 
+          <Typography variant="body1" gutterBottom className="tabtext" align="justify">Olá eu sou o Cley, e esse trabalho foi realizado graças a @GenerationBrasil, e o tema ViverObrigaHistória uniu duas grandes paixões que é tecnologia e história. Aqui pretendo fazer postagens reais sobre curiosidades, mentalidades e continuidades históricas. Divirtam-se! 
           </Typography>
         </TabPanel>
       </TabContext>

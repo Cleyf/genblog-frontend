@@ -3,9 +3,18 @@
 }
 
 .backtab{
-  background: linear-gradient( 36deg,#3d3d3d 40%, #ccccff)!important;
-  color: #ffffff!important;
-  font-weight: bolder;
+  /* background: linear-gradient( 36deg,#3d3d3d 40%, #ccccff)!important; */
+  background: none!important;
+  color: #0d65b8!important;
+  font-weight: bold!important;
+  font-display: 40!important;
+  /* opacity:inherit!important; */
+}
+
+.tabtext{
+  color:#6614c5!important;
+  font-weight: bold!important;
+  font:500!important
 }
 
 

@@ -9,7 +9,7 @@ function ListaTema() {
     <>
       <Box m={2} >
         <Card variant="outlined">
-          <CardContent>
+          <CardContent className="boxpost">
             <Typography color="textSecondary" gutterBottom>
               Tema
             </Typography>
@@ -17,7 +17,7 @@ function ListaTema() {
               Minha descrição
             </Typography>
           </CardContent>
-          <CardActions>
+          <CardActions className="boxpost">
             <Box display="flex" justifyContent="center" mb={1.5} >
 
               <Link to="" className="text-decorator-none">

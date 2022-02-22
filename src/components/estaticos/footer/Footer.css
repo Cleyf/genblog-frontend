@@ -1,11 +1,12 @@
 .footer{
-  background: linear-gradient( 36deg,#3d3d3d 40%, #ccccff);
+  /* background: linear-gradient( 36deg,#3d3d3d 40%, #ccccff); */
+  background: #23232e;
   height: 100px;
 }
 
 .redes{
   font-size: 30px !important;
-  color: #000000;
+  color: #FFFFFF;
 }
 
 .footer2{
@@ -14,7 +15,7 @@
 }
 
 .texto1{
-  color: #000000;
+  color: #FFFFFF;
 }
 
 .texto2{

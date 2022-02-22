@@ -1,13 +1,12 @@
 .back{
-  /* background-color: #595959;  */
   background-image: url("https://i.imgur.com/IefaXIc.jpg[/img]");
     background-repeat: no-repeat;
-    width: 1350px;
+    width: 100vh;
     min-height: calc(100vh - 64); 
     background-size:cover;
     background-position:center;
 
-     height: 340px ;
+     /* height: 340px ; */
 }
 
 .titulo{
