@@ -3,6 +3,9 @@
 }
 
 .btnModal{
-  border-color: #ffffff !important;
-  background-color: #ffffff !important;
+  /* border-color: #ffffff !important; */
+  /* background-color: #ffffff !important; */
+  border-color: #000000!important;
+  background-color: #9e9a9a!important;
+  color: #080808 !important ;
 }
