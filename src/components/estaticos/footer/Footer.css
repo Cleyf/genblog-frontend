@@ -1,11 +1,10 @@
 .footer{
-  /* background: linear-gradient( 36deg,#3d3d3d 40%, #ccccff); */
   background: #23232e;
-  height: 100px;
+  height: 120px;
 }
 
 .redes{
-  font-size: 30px !important;
+  font-size: 60px !important;
   color: #FFFFFF;
 }
 
@@ -21,11 +20,3 @@
 .texto2{
   color: #FFFFFF;
 }
-
-
-/* https://i.imgur.com/IefaXIc.jpg[/img] */
-/* background-repeat: no-repeat; */
-  /* width: 100vw; */
-  /* min-height: calc(100vh - 64);  */
-  /* background-size:cover; */
-  /* background-position:bottom */

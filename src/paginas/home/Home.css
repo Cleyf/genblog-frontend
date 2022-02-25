@@ -1,36 +1,22 @@
-.back{
-  /* background-image: url("https://i.imgur.com/IefaXIc.jpg[/img]"); */
-  background-image: url("https://i.imgur.com/vQW13Qx.jpg[/img]");
-    background-repeat: no-repeat;
-    width: 100vh;
-    min-height: calc(100vh - 64); 
-    background-size:cover;
-    background-position:initial;
-
-     height: 380px ;
+.back {
+  background-image: url('https://i.imgur.com/vQW13Qx.jpg[/img]');
 }
 
-.titulo{
-  color: #ffffff!important;
+.titulo {
+  color: #ffffff !important;
   font-weight: bold !important;
 }
 
-.botao{
-  /* style:  */
-  border-color: #000000!important;
-  background-color: #9e9a9a!important;
+.botao {
+  border-color: #000000 !important;
+  background-color: #9e9a9a !important;
   color: #080808 !important ;
 }
 
-.postagens{
-  /* background: linear-gradient( 36deg,#595959 8%, #ccccff)!important; */
-  /* padding: 0px; */
-  /* margin: 0px; */
-  /* border: 0px; */
+.text {
+  padding: 50px;
 }
 
-/* estilizar o texto para ficar no local correto */
-.text{
-  /* display:grid; */
-  padding: 50px; 
+.postagens {
+  background-color: white;
 }
