@@ -1,5 +1,5 @@
 .back {
-  background-image: url('https://i.imgur.com/vQW13Qx.jpg[/img]');
+  background-image: url('https://i.imgur.com/vQW13Qx.jpg[/img]'); 
 }
 
 .titulo {
@@ -19,4 +19,8 @@
 
 .postagens {
   background-color: white;
+}
+
+.text-decorator-none{
+  text-decoration: none;
 }
