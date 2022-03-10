@@ -1,5 +1,7 @@
 .back {
   background-image: url('https://i.imgur.com/vQW13Qx.jpg[/img]');
+  /* background-image: url('https://www.infoescola.com/wp-content/uploads/2010/03/eras-historicas.jpg'); */
+  
 }
 
 .titulo {
@@ -8,7 +10,7 @@
 }
 
 .botao {
-  border-color: #000000 !important;
+  border-color: #000000!important;
   background-color: #9e9a9a !important;
   color: #080808 !important ;
 }
